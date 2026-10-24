@@ -1,0 +1,48 @@
+[
+  {
+    "_id": "sample00000000000001",
+    "name": "Sample Digital Product",
+    "description": "A sample digital product to demonstrate the store. Replace it with your own product in Admin > Products.",
+    "price": 50000,
+    "originalPrice": 75000,
+    "thumbnail": "/thumbnails/sample-1.png",
+    "images": [
+      "/thumbnails/sample-1.png"
+    ],
+    "returnType": "text",
+    "returnContent": "Thank you for your purchase! This is a sample delivery message. Replace it with your own license key, file link, or instructions.",
+    "category": "digital",
+    "tags": [
+      "sample"
+    ],
+    "isActive": true,
+    "stock": 100,
+    "isUnlimitedStock": false,
+    "createdAt": "2026-10-24T00:00:00.000Z",
+    "updatedAt": "2026-10-24T00:00:00.000Z",
+    "totalSales": 0
+  },
+  {
+    "_id": "sample00000000000002",
+    "name": "Sample Free Product",
+    "description": "A sample free product to demonstrate the free checkout flow (no payment needed).",
+    "price": 0,
+    "originalPrice": 0,
+    "thumbnail": "/thumbnails/sample-2.png",
+    "images": [
+      "/thumbnails/sample-2.png"
+    ],
+    "returnType": "text",
+    "returnContent": "Thank you! This is a sample free delivery message.",
+    "category": "digital",
+    "tags": [
+      "sample"
+    ],
+    "isActive": true,
+    "stock": 100,
+    "isUnlimitedStock": false,
+    "createdAt": "2026-10-24T00:00:00.000Z",
+    "updatedAt": "2026-10-24T00:00:00.000Z",
+    "totalSales": 0
+  }
+]
