@@ -1,0 +1,12 @@
+[
+  {
+    "_id": "sample-branding-000001",
+    "storeName": "Online Shop",
+    "logoUrl": "/store-icon.svg",
+    "faviconUrl": "/store-icon.svg",
+    "lastUpdated": "2026-10-24T00:00:00.000Z",
+    "updatedBy": "admin",
+    "createdAt": "2026-10-24T00:00:00.000Z",
+    "updatedAt": "2026-10-24T00:00:00.000Z"
+  }
+]

@@ -1,0 +1,13 @@
+[
+  {
+    "_id": "sample-midtrans-00001",
+    "serverKey": "SB-Mid-server-CHANGE-ME",
+    "clientKey": "SB-Mid-client-CHANGE-ME",
+    "isProduction": false,
+    "merchantId": "",
+    "lastUpdated": "2026-10-24T00:00:00.000Z",
+    "updatedBy": "admin",
+    "createdAt": "2026-10-24T00:00:00.000Z",
+    "updatedAt": "2026-10-24T00:00:00.000Z"
+  }
+]
