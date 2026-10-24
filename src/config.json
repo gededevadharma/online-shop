@@ -1,0 +1,21 @@
+{
+  "auth": {
+    "jwtSecret": "CHANGE-ME-generate-with-openssl-rand-base64-32",
+    "adminUsername": "admin",
+    "adminPassword": "admin123",
+    "adminEmail": "admin@example.com"
+  },
+  "app": {
+    "url": "http://localhost:3000",
+    "name": "Online Shop"
+  },
+  "midtrans": {
+    "serverKey": "SB-Mid-server-CHANGE-ME",
+    "clientKey": "SB-Mid-client-CHANGE-ME",
+    "isProduction": false
+  },
+  "turnstile": {
+    "siteKey": "",
+    "secretKey": ""
+  }
+}
