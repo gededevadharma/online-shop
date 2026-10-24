@@ -1,0 +1,25 @@
+.pending-banner {
+                    background: linear-gradient(135deg, rgba(0,112,243,0.1), rgba(0,112,243,0.04));
+                    border: 1px solid rgba(0,112,243,0.35);
+                    border-radius: 16px;
+                    padding: 20px;
+                    animation: pending-slide 0.3s ease-out;
+                }
+                @keyframes pending-slide {
+                    from { transform: translateY(-8px); opacity: 0; }
+                    to { transform: none; opacity: 1; }
+                }
+                .pending-banner-head { display: flex; gap: 14px; align-items: center; margin-bottom: 14px; }
+                .pending-banner-icon { font-size: 28px; }
+                .pending-banner-head h3 { margin: 0 0 4px; font-size: 16px; font-weight: 700; color: #fff; }
+                .pending-banner-head p { margin: 0; font-size: 13px; color: #a1a1a1; }
+                .pending-list { display: flex; flex-direction: column; gap: 10px; }
+                .pending-item {
+                    display: flex; justify-content: space-between; align-items: center;
+                    gap: 12px; flex-wrap: wrap;
+                    background: rgba(0,0,0,0.35); border: 1px solid #222;
+                    border-radius: 12px; padding: 12px 14px;
+                }
+                .pending-name { font-weight: 600; font-size: 14px; color: #fff; }
+                .pending-meta { font-size: 12px; color: #888; margin-top: 2px; }
+                .pending-actions { display: flex; gap: 8px; }
