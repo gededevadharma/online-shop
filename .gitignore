@@ -1,0 +1,19 @@
+# dependencies
+node_modules/
+
+# next.js
+.next/
+out/
+
+# cloudflare
+.open-next/
+.wrangler/
+
+# env (never commit real secrets)
+.env
+.env*.local
+.dev.vars
+
+# misc
+*.log
+.DS_Store
