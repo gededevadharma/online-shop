@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <!-- Background circle -->
+  <circle cx="100" cy="100" r="95" fill="#0088cc" opacity="0.1" stroke="#0088cc" stroke-width="2"/>
+  
+  <!-- Telegram paper plane -->
+  <g transform="translate(50, 50) scale(1)">
+    <!-- Main body -->
+    <path d="M 50 20 L 100 50 L 50 100 L 50 70 L 20 85 L 50 100 L 50 70 Z" fill="#0088cc"/>
+    
+    <!-- Accent stripe -->
+    <path d="M 50 60 L 85 75" stroke="#0099dd" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Alternative design: Telegram @ symbol -->
+  <circle cx="100" cy="100" r="40" fill="none" stroke="#0088cc" stroke-width="3"/>
+  <text x="100" y="115" font-family="Arial, sans-serif" font-size="50" font-weight="bold" fill="#0088cc" text-anchor="middle">✈</text>
+</svg>
