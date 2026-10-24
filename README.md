@@ -1,4 +1,4 @@
-# GTShop — Template Toko Online (Next.js + Midtrans)
+# Online Shop — Template Toko Online (Next.js + Midtrans)
 
 Template toko online produk digital: katalog, checkout QRIS via
 **Midtrans Snap**, produk gratis, panel admin lengkap, dan pengiriman
@@ -37,8 +37,8 @@ kode ini.
 ## Quick Start
 
 ```bash
-git clone https://github.com/gededevadharma/gtshop.git
-cd gtshop
+git clone https://github.com/gededevadharma/online-shop.git
+cd online-shop
 npm install
 ```
 
@@ -208,7 +208,7 @@ tersimpan di `data/branding.json`.
 ## Struktur Proyek
 
 ```
-gtshop/
+online-shop/
   src/
     app/            ← halaman & API routes (Next.js App Router)
       admin/        ← panel admin
